@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cb139fc-4a8d-4ee6-9cfd-ca4d6d06b2ff" name="Default Changelist" comment="第一次git提交&#10;HomeWork">
-      <change afterPath="$PROJECT_DIR$/.git.7z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1cb139fc-4a8d-4ee6-9cfd-ca4d6d06b2ff" name="Default Changelist" comment="1.0 day1 Test01完成">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day01/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day01/note.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/emp.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day06/emp.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/emp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day06/emp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/emp.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day08/emp.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/emp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day08/emp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/emp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day08/emp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day10/config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/server-config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day10/server-config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12/emp.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day12/emp.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12/emp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day12/emp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12/emp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day12/emp.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +73,7 @@
       <workItem from="1595335313806" duration="607000" />
       <workItem from="1595336158113" duration="278000" />
       <workItem from="1595379678623" duration="4173000" />
-      <workItem from="1595386780427" duration="20000" />
+      <workItem from="1595386780427" duration="1815000" />
     </task>
     <task id="LOCAL-00001" summary="第一次git提交&#10;HomeWork">
       <created>1595384418178</created>
@@ -103,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595385674599</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第一次git提交&#10;HomeWork">
+      <created>1595386952374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595386952374</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,17 +107,18 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="第一次git提交&#10;HomeWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次git提交&#10;HomeWork" />
+    <MESSAGE value="1.0 day1 Test01完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0 day1 Test01完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1117" y="397" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1595335340555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1117" y="397" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595335340555" />
-    <state x="888" y="144" key="CommitChangelistDialog2" timestamp="1595386420255">
+    <state x="888" y="144" key="CommitChangelistDialog2" timestamp="1595388560067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="888" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595386420255" />
+    <state x="888" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595388560067" />
     <state x="0" y="73" key="DiffContextDialog" timestamp="1595386187224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -133,22 +127,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1051" y="249" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595386836127" />
-    <state width="1062" height="255" key="GridCell.Tab.0.bottom" timestamp="1595335920788">
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1595388560084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1062" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595335920788" />
-    <state width="1062" height="255" key="GridCell.Tab.0.center" timestamp="1595335920788">
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595388560084" />
+    <state width="1877" height="253" key="GridCell.Tab.0.center" timestamp="1595388560084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1062" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595335920788" />
-    <state width="1062" height="255" key="GridCell.Tab.0.left" timestamp="1595335920788">
+    <state width="1877" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595388560084" />
+    <state width="1877" height="253" key="GridCell.Tab.0.left" timestamp="1595388560084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1062" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595335920788" />
-    <state width="1062" height="255" key="GridCell.Tab.0.right" timestamp="1595335920788">
+    <state width="1877" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595388560084" />
+    <state width="1877" height="253" key="GridCell.Tab.0.right" timestamp="1595388560084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1062" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595335920788" />
+    <state width="1877" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595388560084" />
     <state x="510" y="217" key="RollbackChangesDialog" timestamp="1595386183805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -157,10 +151,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="150" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595386799831" />
-    <state x="892" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595386299469">
+    <state x="892" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595388594474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="892" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595386299469" />
+    <state x="892" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595388594474" />
     <state x="951" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1595386784800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
