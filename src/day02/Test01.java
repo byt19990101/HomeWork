@@ -22,12 +22,12 @@ public class Test01 {
             int n = Integer.parseInt(str);
             n *= 10;
             System.out.println(n);
-        }else{
+        } else {
             if (str.matches(regex1)) {
-                Float n = Float.valueOf(str);
+                double n = Double.parseDouble(str);
                 n *= 5;
                 System.out.println(n);
-            }else{
+            } else {
                 System.out.println("不是数字");
             }
         }
