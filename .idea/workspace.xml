@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1cb139fc-4a8d-4ee6-9cfd-ca4d6d06b2ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/Test05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/Test06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/Test06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/Test04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/Test05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/Test06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/Test06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Test05">
+  <component name="RunManager" selected="Application.Test06">
     <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day02.Test04" />
       <module name="HomeWork" />
@@ -107,9 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test06" />
         <item itemvalue="Application.Test05" />
         <item itemvalue="Application.Test06 (1)" />
-        <item itemvalue="Application.Test06" />
         <item itemvalue="Application.Test05 (1)" />
         <item itemvalue="Application.Test04" />
       </list>
@@ -141,7 +136,7 @@
       <workItem from="1595336158113" duration="278000" />
       <workItem from="1595379678623" duration="4173000" />
       <workItem from="1595386780427" duration="19041000" />
-      <workItem from="1595473582174" duration="17515000" />
+      <workItem from="1595473582174" duration="17830000" />
     </task>
     <task id="LOCAL-00001" summary="第一次git提交&#10;HomeWork">
       <created>1595384418178</created>
@@ -199,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595412836945</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.0.3 day01 全部完成&#10;day01 Test05 完成&#10;      Test06 完成&#10;day02 Test04 完成&#10;      Test05 完成&#10;      Test06 完成">
+      <created>1595502809871</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595502809871</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +217,8 @@
     <MESSAGE value="1.0.1 day2 Person完成" />
     <MESSAGE value="1.0.2 &#10;day01 Test02\Test03 完成&#10;day02 Test01 完成" />
     <MESSAGE value="1.0.3&#10;day01 Test05 刚开始随便写了点&#10;day02 Test01 将Float类型更改为Double&#10;      Test02 完成&#10;      Test03 完成&#10;day03 EMP    完成&#10;      Test01 完成&#10;      Test02 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.3&#10;day01 Test05 刚开始随便写了点&#10;day02 Test01 将Float类型更改为Double&#10;      Test02 完成&#10;      Test03 完成&#10;day03 EMP    完成&#10;      Test01 完成&#10;      Test02 完成" />
+    <MESSAGE value="1.0.3 day01 全部完成&#10;day01 Test05 完成&#10;      Test06 完成&#10;day02 Test04 完成&#10;      Test05 完成&#10;      Test06 完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.3 day01 全部完成&#10;day01 Test05 完成&#10;      Test06 完成&#10;day02 Test04 完成&#10;      Test05 完成&#10;      Test06 完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1165" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1595406811674">
@@ -230,10 +233,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="958" y="271" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595390352824" />
-    <state x="375" y="63" width="984" height="863" key="CommitChangelistDialog2" timestamp="1595412835399">
+    <state x="375" y="63" width="984" height="863" key="CommitChangelistDialog2" timestamp="1595502806819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="375" y="63" width="984" height="863" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595412835399" />
+    <state x="375" y="63" width="984" height="863" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595502806819" />
     <state x="0" y="73" key="DiffContextDialog" timestamp="1595386187224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,22 +245,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1051" y="249" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595405903740" />
-    <state width="1062" height="227" key="GridCell.Tab.0.bottom" timestamp="1595500273501">
+    <state width="1062" height="227" key="GridCell.Tab.0.bottom" timestamp="1595503214177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1062" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595500273501" />
-    <state width="1062" height="227" key="GridCell.Tab.0.center" timestamp="1595500273501">
+    <state width="1062" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595503214177" />
+    <state width="1062" height="227" key="GridCell.Tab.0.center" timestamp="1595503214177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1062" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595500273501" />
-    <state width="1062" height="227" key="GridCell.Tab.0.left" timestamp="1595500273501">
+    <state width="1062" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595503214177" />
+    <state width="1062" height="227" key="GridCell.Tab.0.left" timestamp="1595503214177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1062" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595500273501" />
-    <state width="1062" height="227" key="GridCell.Tab.0.right" timestamp="1595500273501">
+    <state width="1062" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595503214177" />
+    <state width="1062" height="227" key="GridCell.Tab.0.right" timestamp="1595503214177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1062" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595500273501" />
+    <state width="1062" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595503214177" />
     <state x="510" y="217" key="RollbackChangesDialog" timestamp="1595386183805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -266,10 +269,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="150" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595386799831" />
-    <state x="892" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595412839517">
+    <state x="892" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595502813549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="892" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595412839517" />
+    <state x="892" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595502813549" />
     <state x="951" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1595386784800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -10,14 +10,19 @@ import java.util.Scanner;
  */
 public class Test06 {
     public static void main(String[] args) {
-        System.out.println("请输入文件名：");
+        System.out.println("请输入正则表达式：");
         Scanner sc = new Scanner(System.in);
         String textNumber0 = sc.next();
         String textNumber = "0415-5561111";
         String regex = "^[0-9]{3,4}[/-][0-9]{7,8}$";
 
+        if (textNumber0.matches(regex)) {
+            System.out.println(textNumber0 + " " + "是电话号码");
+        } else {
+            System.out.println(textNumber0 + " " + "不是电话号码");
+        }
+
         System.out.println(textNumber + " " + textNumber.matches(regex));
-        System.out.println(textNumber0 + " " + textNumber0.matches(regex));
     }
 
 }
