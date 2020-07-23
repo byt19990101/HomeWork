@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class Test06 {
     public static void main(String[] args) {
-        System.out.println("请输入正则表达式：");
+        System.out.println("请输入要判断的号码：");
         Scanner sc = new Scanner(System.in);
         String textNumber0 = sc.next();
         String textNumber = "0415-5561111";
