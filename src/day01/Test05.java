@@ -1,6 +1,7 @@
 package day01;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * 随机生成一个5位的英文字母验证码(大小写混搭)
@@ -11,13 +12,28 @@ import java.util.ArrayList;
  */
 public class Test05 {
 	public static void main(String[] args) {
-		String charStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-		ArrayList<String> a = new ArrayList<String>();
+		//ArrayList<Character> a = new ArrayList<>();
+		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i <5; i++) {
-			a.add(String.valueOf((int)(Math.random()*52)));
+			int n =(int)(Math.random()*52)+65;
+			if(n>=91 && n<=96){
+				i--;
+			}else{
+				char c = (char) n;
+				String s = String.valueOf(c);
+				sb.append(s);
+				//a.add(c);
+			}
 		}
-		System.out.println(a);
-		//String n = String.valueOf((int)(Math.random()*52));
+		System.out.println(sb);
+		System.out.println("请输入验证码：");
+		Scanner sc = new Scanner(System.in);
+		String m = sc.next();
+		if(String.valueOf(sb).equalsIgnoreCase(m)){
+			System.out.println("验证码输入正确！");
+		}else{
+			System.out.println("验证码输入错误！");
+		}
 
 	}
 	
