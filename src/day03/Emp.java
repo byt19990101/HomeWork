@@ -25,7 +25,7 @@ public class Emp {
     private int age;
     private String gender;
     private int salary;
-    private Date hiredatee;
+    private Date hiredate;
 
     public Emp(){
 
@@ -35,7 +35,7 @@ public class Emp {
         this.age = age;
         this.gender = gender;
         this.salary = salary;
-        this.hiredatee = hiredatee;
+        this.hiredate = hiredatee;
     }
 
     public String getName() {
@@ -71,18 +71,18 @@ public class Emp {
     }
 
     public Date getHiredatee() {
-        return hiredatee;
+        return hiredate;
     }
 
     public void setHiredatee(Date hiredatee) {
-        this.hiredatee = hiredatee;
+        this.hiredate = hiredatee;
     }
 
     //姓名:张三,年龄:25,性别:男,薪资:5000,入职时间:2006-02-15
     @Override
     public String toString() {
         SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
-        String d = sf.format(hiredatee);
+        String d = sf.format(hiredate);
         return "姓名:" + name +
                 ",年龄:" + age +
                 ",性别:" + gender +
