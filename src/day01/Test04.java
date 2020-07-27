@@ -12,8 +12,14 @@ public class Test04 {
 		System.out.println("请输入email地址：");
 		Scanner sc = new Scanner(System.in);
 		String email = sc.next();
-		int x = email.indexOf("@");
-		System.out.println("该email的用户名为："+email.substring(0,x));
+		if(email.indexOf("@")!=-1){
+			String username = email.substring(0,email.indexOf("@"));
+			System.out.println("该email的用户名为："+username);
+		}else{
+			System.out.println("输入邮箱格式错误！");
+		}
+//		int x = email.indexOf("@");
+//		System.out.println("该email的用户名为："+email.substring(0,x));
 		
 	}
 }

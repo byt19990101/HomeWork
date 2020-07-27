@@ -1,6 +1,5 @@
 package day01;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -12,7 +11,22 @@ import java.util.Scanner;
  */
 public class Test05 {
 	public static void main(String[] args) {
-		//ArrayList<Character> a = new ArrayList<>();
+
+		String sb = random();
+
+		System.out.println(sb);
+		System.out.println("请输入验证码：");
+		Scanner sc = new Scanner(System.in);
+		String m = sc.next();
+		if(sb.equalsIgnoreCase(m)){
+			System.out.println("验证码输入正确！");
+		}else{
+			System.out.println("验证码输入错误！");
+		}
+
+	}
+
+	public static String random(){
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i <5; i++) {
 			int n =(int)(Math.random()*52)+65;
@@ -25,16 +39,8 @@ public class Test05 {
 				//a.add(c);
 			}
 		}
-		System.out.println(sb);
-		System.out.println("请输入验证码：");
-		Scanner sc = new Scanner(System.in);
-		String m = sc.next();
-		if(String.valueOf(sb).equalsIgnoreCase(m)){
-			System.out.println("验证码输入正确！");
-		}else{
-			System.out.println("验证码输入错误！");
-		}
-
+		String s = sb.toString();
+		return s;
 	}
 	
 }
