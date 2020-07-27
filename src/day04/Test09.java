@@ -19,6 +19,7 @@ import java.util.*;
 public class Test09 {
     public static void main(String[] args) throws ParseException {
         SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
+
         System.out.println("请输入员工信息：");
         Scanner sc = new Scanner(System.in);
         String input = sc.next().trim();
