@@ -47,25 +47,21 @@ public class Test03 {
         System.out.println("按照年龄排序：");
         System.out.println(list);
 
+
+
+        Collections.sort(list);
         compareDate(list);
 
     }
 
     public static void compareDate(List<Emp> list) {
-        //compare方法返回值为int，无法直接通过long类型比较
         System.out.println("按照入职时间排序：");
         Collections.sort(list, new Comparator<Emp>() {
             @Override
             public int compare(Emp o1, Emp o2) {
-                long t1 = o1.getHiredate().getTime();
-                long t2 = o2.getHiredate().getTime();
-                if (t1 < t2) {
-                    return 1;
-                } else if (t1 > t2) {
-                    return -1;
-                } else {
-                    return 0;
-                }
+                Date t1 = o1.getHiredate();
+                Date t2 = o2.getHiredate();
+                return t2.compareTo(t1);
 
             }
         });
