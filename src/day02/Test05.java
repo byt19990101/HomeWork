@@ -19,5 +19,6 @@ public class Test05 {
         int x = name.indexOf(".");
         String suffix = name.substring(x);
         System.out.println(str + suffix);
+
     }
 }

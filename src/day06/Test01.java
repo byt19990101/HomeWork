@@ -1,7 +1,5 @@
 package day06;
 
-import org.junit.Test;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -13,9 +11,8 @@ import java.text.SimpleDateFormat;
  * @author Bonnie
  */
 public class Test01 {
-    @Test
-    public void Test() throws IOException {
-        File file = new File("src/day06/myfile.txt");
+    public static void main(String[] args) throws IOException {
+        File file = new File("myfile.txt");
         SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         file.createNewFile();
         System.out.println("文件名：" + file.getName());
