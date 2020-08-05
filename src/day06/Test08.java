@@ -12,17 +12,27 @@ public class Test08 {
     public static void main(String[] args) throws IOException {
         File file = new File("raf.dat");
         file.createNewFile();
-        Writer w = new OutputStreamWriter(new FileOutputStream(file, true));
-        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("raf.dat")));
-        w.write(String.valueOf(Integer.MAX_VALUE));
-        w.write("\n");
-        w.write(String.valueOf(Long.MAX_VALUE));
-        w.close();
 
-        System.out.println("int的最大值：" + br.readLine());
-        System.out.println("long的最大值：" + br.readLine());
+        RandomAccessFile rw = new RandomAccessFile("raf.dat", "rw");
+        rw.writeInt(Integer.MAX_VALUE);
+        rw.skipBytes(4);
+        rw.writeLong(Long.MAX_VALUE);
 
-        br.close();
+//        Writer w = new OutputStreamWriter(new FileOutputStream(file, true));
+//        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("raf.dat")));
+//        w.write(String.valueOf(Integer.MAX_VALUE));
+//        w.write("\n");
+//        w.write(String.valueOf(Long.MAX_VALUE));
+//        w.close();
+//        System.out.println("int的最大值：" + br.readLine());
+//        System.out.println("long的最大值：" + br.readLine());
+//        br.close();
+        rw.seek(0);
+        System.out.println("int的最大值：" + rw.readInt());
+        rw.seek(4);
+        System.out.println("long的最大值：" + rw.readLong());
+        rw.close();
+
     }
 
 }

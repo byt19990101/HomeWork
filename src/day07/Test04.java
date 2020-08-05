@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -28,7 +27,7 @@ public class Test04 {
             list.add(e);
         }
 
-        Collections.sort(list, (o1, o2) -> o2.getSalary() - o1.getSalary());
+        list.sort((o1, o2) -> o2.getSalary() - o1.getSalary());
 
         for (Emp e : list) {
             System.out.println(e);
