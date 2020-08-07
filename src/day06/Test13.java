@@ -2,6 +2,11 @@ package day06;
 
 import java.io.*;
 import java.net.URISyntaxException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 /**
  * 将emp.dat文件中所有员工解析出来，并创建为若干Emp实例存入一个
@@ -21,15 +26,47 @@ import java.net.URISyntaxException;
  * @author Bonnie
  */
 public class Test13 {
-    public static void main(String[] args) throws URISyntaxException, IOException {
+    public static void main(String[] args) throws URISyntaxException, IOException, ParseException {
         //使用类加载器加载当前包中的emp.dat文件
         File file = new File(Test13.class.getClassLoader().getResource("day06/emp.dat").toURI());
-        FileReader fr = new FileReader(file);
-        int len;
-        char[] cbuf = new char[2];
-        while ((len = fr.read(cbuf)) != -1) {
-            System.out.println(new String(cbuf,0,len));
+        RandomAccessFile rw = new RandomAccessFile(file, "rw");
+        SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
+        List<Emp> list = new ArrayList<Emp>();
+
+        rw.seek(0);
+        while(true){
+            try{
+                byte[] b = new byte[32];
+                int len = rw.read(b);
+                //读取name
+                String name = new String(b, 0, len).trim();
+                //System.out.println(new String(b, 0, len).trim());
+                //读取age
+                int age = rw.readInt();
+                //读取gender
+                b = new byte[10];
+                len = rw.read(b);
+                String gender = new String(b, 0, len).trim();
+                //读取salary
+                int salary = rw.readInt();
+                //读取hiredate
+                b = new byte[30];
+                len = rw.read(b);
+                Date hiredate = sf.parse(new String(b, 0, len).trim());
+                Emp e = new Emp(name, age, gender, salary, hiredate);
+                list.add(e);
+            }catch(StringIndexOutOfBoundsException e){
+                break;
+            }
+
         }
-        fr.close();
+        for(Emp e :list){
+            System.out.println(e);
+        }
+        //System.out.println(list.toString());
+
     }
+
 }
+
+

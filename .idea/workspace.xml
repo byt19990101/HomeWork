@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cb139fc-4a8d-4ee6-9cfd-ca4d6d06b2ff" name="Default Changelist" comment="1.1.3 关于day06 &#10;day06 Test02 删除了一个不必要的import&#10;      Test03 删除了一个不必要的import&#10;      Test07 完成&#10;      Test08 完成&#10;      Test09 完成&#10;      Test10 完成&#10;      Test11 完成&#10;      Test12 完成&#10;      Test13 随便写了点思路&#10;day07 Test01 完成&#10;      Test02 完成&#10;      Test03 完成&#10;      Test04 完成">
+    <list default="true" id="1cb139fc-4a8d-4ee6-9cfd-ca4d6d06b2ff" name="Default Changelist" comment="1.1.5 day06 day07 全部完成 &#10;day06 Test13 完成&#10;day07 Test05 完成&#10;      Test06 完成&#10;      Test07 完成">
+      <change afterPath="$PROJECT_DIR$/src/day06/emp.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/emp.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/Test08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/Test08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/Test04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/Test13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/Test13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/Test05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/Test06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/Test06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/Test07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/Test07.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -48,33 +52,7 @@
       <recent name="D:\Java\IdeaProjects\HomeWork\src\day06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test08">
-    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.Test02" />
-      <module name="HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.Test03" />
-      <module name="HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test07">
     <configuration name="Test04 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day07.Test04" />
       <module name="HomeWork" />
@@ -88,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.Test08" />
+    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.Test05" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06.*" />
+          <option name="PATTERN" value="day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,8 +79,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.Test11" />
+    <configuration name="Test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.Test06" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.Test07" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.Test13" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test08" />
+        <item itemvalue="Application.Test07" />
+        <item itemvalue="Application.Test06" />
+        <item itemvalue="Application.Test05" />
         <item itemvalue="Application.Test04 (1)" />
-        <item itemvalue="Application.Test11" />
-        <item itemvalue="Application.Test03" />
-        <item itemvalue="Application.Test02" />
+        <item itemvalue="Application.Test13" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +176,11 @@
       <workItem from="1596543157335" duration="1289000" />
       <workItem from="1596593136627" duration="121000" />
       <workItem from="1596611065173" duration="5643000" />
-      <workItem from="1596629472613" duration="1456000" />
+      <workItem from="1596629472613" duration="2976000" />
+      <workItem from="1596675511377" duration="48000" />
+      <workItem from="1596683093362" duration="918000" />
+      <workItem from="1596684927764" duration="1217000" />
+      <workItem from="1596766179911" duration="5874000" />
     </task>
     <task id="LOCAL-00001" summary="第一次git提交&#10;HomeWork">
       <created>1595384418178</created>
@@ -321,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596538957621</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="1.1.4 &#10;day06 Test08 使用RandomAccessFile进行读写&#10;day07 Test04 修改比较器">
+      <created>1596631307148</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1596631307148</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,17 +365,18 @@
     <MESSAGE value="1.1.1 补充" />
     <MESSAGE value="1.1.2 &#10;day06 Test01 将单元测试改成主方法&#10;      Test02 完成&#10;      Test03 完成&#10;      Test04 完成&#10;      Test05 完成&#10;      Test06 完成&#10;day07 Emp 完成&#10;day08 Emp 完成" />
     <MESSAGE value="1.1.3 关于day06 &#10;day06 Test02 删除了一个不必要的import&#10;      Test03 删除了一个不必要的import&#10;      Test07 完成&#10;      Test08 完成&#10;      Test09 完成&#10;      Test10 完成&#10;      Test11 完成&#10;      Test12 完成&#10;      Test13 随便写了点思路&#10;day07 Test01 完成&#10;      Test02 完成&#10;      Test03 完成&#10;      Test04 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1.3 关于day06 &#10;day06 Test02 删除了一个不必要的import&#10;      Test03 删除了一个不必要的import&#10;      Test07 完成&#10;      Test08 完成&#10;      Test09 完成&#10;      Test10 完成&#10;      Test11 完成&#10;      Test12 完成&#10;      Test13 随便写了点思路&#10;day07 Test01 完成&#10;      Test02 完成&#10;      Test03 完成&#10;      Test04 完成" />
+    <MESSAGE value="1.1.4 &#10;day06 Test08 使用RandomAccessFile进行读写&#10;day07 Test04 修改比较器" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1.4 &#10;day06 Test08 使用RandomAccessFile进行读写&#10;day07 Test04 修改比较器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="317" y="270" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595576750044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="317" y="270" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595576750044" />
-    <state x="945" y="312" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596614418931">
+    <state x="945" y="312" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596768585874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="945" y="312" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596614418931" />
+    <state x="945" y="312" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596768585874" />
     <state x="972" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1596527213948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -381,34 +397,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="958" y="271" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595390352824" />
-    <state x="405" y="126" width="984" height="863" key="CommitChangelistDialog2" timestamp="1596542881180">
+    <state x="757" y="112" width="984" height="863" key="CommitChangelistDialog2" timestamp="1596772079726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="405" y="126" width="984" height="863" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596542881180" />
-    <state x="0" y="73" key="DiffContextDialog" timestamp="1596538940538">
+    <state x="757" y="112" width="984" height="863" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596772079726" />
+    <state x="0" y="73" key="DiffContextDialog" timestamp="1596771876438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="73" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596538940538" />
-    <state x="1051" y="249" key="FileChooserDialogImpl" timestamp="1596593257770">
+    <state x="0" y="73" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596771876438" />
+    <state x="1051" y="249" key="FileChooserDialogImpl" timestamp="1596770476074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1051" y="249" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596593257770" />
-    <state width="1096" height="233" key="GridCell.Tab.0.bottom" timestamp="1596631122859">
+    <state x="1051" y="249" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596770476074" />
+    <state width="1157" height="204" key="GridCell.Tab.0.bottom" timestamp="1596771728218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596631122859" />
-    <state width="1096" height="233" key="GridCell.Tab.0.center" timestamp="1596631122859">
+    <state width="1157" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596771728218" />
+    <state width="1157" height="204" key="GridCell.Tab.0.center" timestamp="1596771728218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="233" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596631122859" />
-    <state width="1096" height="233" key="GridCell.Tab.0.left" timestamp="1596631122859">
+    <state width="1157" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596771728218" />
+    <state width="1157" height="204" key="GridCell.Tab.0.left" timestamp="1596771728218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="233" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596631122859" />
-    <state width="1096" height="233" key="GridCell.Tab.0.right" timestamp="1596631122859">
+    <state width="1157" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596771728218" />
+    <state width="1157" height="204" key="GridCell.Tab.0.right" timestamp="1596771728218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="233" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596631122859" />
+    <state width="1157" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596771728218" />
     <state width="1064" height="325" key="GridCell.Tab.1.bottom" timestamp="1596539015653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -429,18 +445,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="510" y="217" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595386183805" />
-    <state x="561" y="158" key="SettingsEditor" timestamp="1596509436639">
+    <state x="561" y="158" key="SettingsEditor" timestamp="1596675548071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="561" y="158" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596509436639" />
-    <state x="335" y="280" key="Vcs.Push.Dialog.v2" timestamp="1596538963242">
+    <state x="561" y="158" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596675548071" />
+    <state x="335" y="280" key="Vcs.Push.Dialog.v2" timestamp="1596631312090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="335" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596538963242" />
-    <state x="951" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1596629469559">
+    <state x="335" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596631312090" />
+    <state x="951" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1596675510164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="951" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596629469559" />
+    <state x="951" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596675510164" />
     <state x="1051" y="396" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596273165921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -453,9 +469,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595590856721" />
-    <state x="962" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1596537384001">
+    <state x="962" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1596770742279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="962" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596537384001" />
+    <state x="962" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596770742279" />
   </component>
 </project>
