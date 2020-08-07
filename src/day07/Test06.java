@@ -18,7 +18,7 @@ public class Test06 {
         file.createNewFile();
         while(true){
             System.out.println("--------------------------");
-            System.out.println("请输入要输入的字符串信息：");
+            System.out.println("请输入要输入的字符串信息(输入exit退出)：");
             String str = sc.nextLine();
             if(str.equalsIgnoreCase("exit")){
                 break;

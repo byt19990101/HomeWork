@@ -1,4 +1,11 @@
 package day08;
+
+import java.io.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
 /**
  * 使用异常捕获机制完成下述IO操作
  * 编写程序，要求下面的类实现功能:
@@ -13,10 +20,53 @@ package day08;
  * 相关内容输入不符合要求，并要求重新输入。
  * 都输入正确后，将该员工添加到emp.txt文件
  * 的最后一行。
- * 
- * @author Bonnie
  *
+ * @author Bonnie
  */
 public class Test06 {
+    public static void main(String[] args) {
+        SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
+        System.out.println("请输入员工信息：");
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            String input = sc.nextLine();
+            String[] me = input.split(",");
+            String name = me[0];
+            int age = Integer.parseInt(me[1]);
+            String gender = me[2];
+            int salary = Integer.parseInt(me[3]);
+            Date hiredate = null;
+            try {
+                hiredate = sf.parse(me[4]);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
 
+            boolean bn = name.matches("^[a-zA-Z]{1,20}$");
+            boolean ba = age > 0 && age < 100;
+            boolean bg = gender.matches("^男$|^女$");
+            if (!bn) {
+                System.out.println("输入的用户名不符合规定，请重新输入。");
+            }
+            if (!ba) {
+                System.out.println("输入的年龄不符合规定，请重新输入。");
+            }
+            if (!bg) {
+                System.out.println("输入的性别不符合规定，请重新输入。");
+            }
+            if (bn && ba && bg) {
+                Emp e = new Emp(name, age, gender, salary, hiredate);
+                PrintWriter pw = null;
+                try {
+                    pw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("src/day08/emp.txt", true)));
+                } catch (FileNotFoundException ex) {
+                    ex.printStackTrace();
+                }
+                pw.println(e);
+                pw.flush();
+                System.out.println("格式正确，输入成功。");
+                break;
+            }
+        }
+    }
 }
